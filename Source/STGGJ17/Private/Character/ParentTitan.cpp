@@ -42,7 +42,7 @@ void AParentTitan::BeginPlay()
 	Super::BeginPlay();
 
 	AnimInstance = Cast<UTitanAnimInstance>(MeshComp->GetAnimInstance());
-	//hellooooo
+
 	//if element is water, cast<stggj17gamemode>(Getgamemode())->Water == this;
 	switch (Element) {
 		case ETitanElement::Fire: {
